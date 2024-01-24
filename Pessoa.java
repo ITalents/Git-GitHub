@@ -4,7 +4,7 @@ public class Pessoa {
     private double peso;
     private double altura;
 
-    private Pessoa(String nome){
+    public Pessoa(String nome){
         this.nome = nome;
     }
 
