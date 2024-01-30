@@ -50,6 +50,10 @@ public class Pessoa {
         System.out.println("Peso: "+peso+" Kg, Altura: "+altura+" CM");
     }
 
+    public void Rejuvenecer(){
+        this.idade -=1;
+    }
+
     public double CalcularIMC(double peso, double altura){
         if (peso <= 0 || altura <= 0) {
             System.out.println("Peso e altura devem ser valores positivos, maiores que zero!");
