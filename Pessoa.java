@@ -49,4 +49,13 @@ public class Pessoa {
         System.out.println("Nome: "+nome+", "+idade+" anos.");
         System.out.println("Peso: "+peso+" Kg, Altura: "+altura+" CM");
     }
+
+    public double CalcularIMC(double peso, double altura){
+        if (peso <= 0 || altura <= 0) {
+            System.out.println("Peso e altura devem ser valores positivos, maiores que zero!");
+            return -1;
+        }
+        double imc = peso / (altura * altura);
+        return imc;
+    }
 }

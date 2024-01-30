@@ -7,5 +7,6 @@ public class Main {
         pessoa.setAltura(187);
 
         pessoa.ApresentacaoPessoal();
+        System.out.println("Seu IMC é de: "+pessoa.CalcularIMC(pessoa.getPeso(),pessoa.getAltura()));
     }
 }
