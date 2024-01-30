@@ -49,8 +49,4 @@ public class Pessoa {
         System.out.println("Nome: "+nome+", "+idade+" anos.");
         System.out.println("Peso: "+peso+" Kg, Altura: "+altura+" CM");
     }
-
-    public void Rejuvenecer(){
-        this.idade -= 1;
-    }
 }
